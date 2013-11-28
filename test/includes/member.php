@@ -15,9 +15,21 @@
 $( init );
  
 function init() {
-for ( var i=1; i<3; i++ ) {
-  $('#makeMeDraggable' + i).draggable();
-}
+	for ( var i=1; i<3; i++ ) 
+	{
+		$('#makeMeDraggable' + i).draggable( {
+			cursor: 'move',
+			containment: 'document',
+		stop: handleDragStop
+  } );
+	}
+	
+	function handleDragStop( event, ui ) 
+	{
+		var offsetXPos = parseInt( ui.offset.left );
+		var offsetYPos = parseInt( ui.offset.top );
+		alert( "Drag stopped!\n\nOffset: (" + offsetXPos + ", " + offsetYPos + ")\n");
+	}
  }
 </script>
 <div id="content" style="height: 400px;">
