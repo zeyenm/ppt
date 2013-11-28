@@ -1,9 +1,9 @@
 <?php
 $db_Host = 'localhost';
 $db_HostPort = '';
-$db_User = 'db10599883-admin';
-$db_UserPW = 'jaj42215mysql';
-$db_DBName = 'db10599883-rootdb';
+$db_User = 'root';
+$db_UserPW = '';
+$db_DBName = 'test';
 
 // $link = mysql_connect($db_Host.$db_HostPort, $db_User, $db_UserPW);
 // if (!$link) {
