@@ -13,5 +13,5 @@
   $pass = $_POST["pass"]; //Passwort in verschlüsselter Form in die Datenbank speichern
   $sql = "INSERT INTO users (id , usr , pass, email, regIP, dt) VALUES ( NULL ,'$name','$pass', '$email', '', '0000-00-00 00:00:00');";
   mysql_query($sql) or die(mysql_error());
-  die(header("location: ../index.php")); //Benutzer zur Login-Seite weiterleiten
+  die(header("location: ../test/index.php")); //Benutzer zur Login-Seite weiterleiten
 ?>

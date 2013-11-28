@@ -1,5 +1,5 @@
 <?php   
-  //Script by http://decodingtutorials.wordpress.com  
+ 
 
   session_start(); //Session starten um Session-Variablen initialisieren zu können
 
@@ -9,7 +9,7 @@
   mysql_select_db ($db_DBName , $connection);   
   $name = $_POST["name"];   
   $pass = $_POST["pass"];   
-echo $name;
+
   $sql = "SELECT id, usr FROM users WHERE (usr = '$name' AND pass = '$pass');";   
   $result = mysql_query($sql);   
   $row = mysql_fetch_array($result);  
@@ -17,11 +17,11 @@ echo $name;
   if (mysql_num_rows($result)==1) {     
     $_SESSION["id"] = $row["id"];     
     $_SESSION["name"] = $row["usr"];    
-    die(header("location: member.php"));   
+    die(header("location: ../includes/member.php"));   
   }  
 
   else {    
-    die(header("location: ../register.html"));  
+    die(header("location: ../register.php"));  
   } 
 
 ?>

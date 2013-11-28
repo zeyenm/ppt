@@ -25,12 +25,12 @@ for ( var i=1; i<3; i++ ) {
   $j=0;
   foreach(glob('../images/*.*') as $filename){
   $j++;
-     echo '<img src="'.$filename.'" id="makeMeDraggable'.$j.'" height="300">'.$filename.'</img><br>';
+     echo '<img src="'.$filename.'" id="makeMeDraggable'.$j.'" height="300">Drag and Drop '.$filename.'</img><br>';
 
  }
 ?>
   
 </div>
     <p>
-      <a href="logout.php">Logout</a>
+      <a href="../includes/logout.php">Logout</a>
     </p>

@@ -4,7 +4,7 @@
   session_start();
 
   if (!isset($_SESSION["id"])||empty($_SESSION["id"])) {
-    die(header("location: ./login.php")); 
+    die(header("location: ../test/login.php")); 
   }
 
 ?>
