@@ -3,14 +3,6 @@
 <!-- start include head -->
 		<?php include ("../test/templates/head.php"); ?>
 <!-- end include head -->
-		<script type="text/javascript">
- 
-$( init );
- 
-function init() {
-  $('#login').draggable();
- }
-</script>
   <head>
     <title>
       Login

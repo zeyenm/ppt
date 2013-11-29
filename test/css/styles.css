@@ -8,16 +8,24 @@ body {
     background-color: #840b2a;*/
 }
 div#Navigation {
-	text-align: left;
-	margin: 0 auto;
-	width: 760px;
-	padding: 0.5em;
-	border: 2px ridge silver;
+	width: 14%;
+float: left;
+line-height: 18px;
+border: 1px solid #000000;
+background-color: #efefef;
 }
 
 div#UserInfo {
-	text-align: left;
+    float: auto;
+	margin: 0 12em 1em 1em;
+    padding: 0 1em;
+    border: 1px dashed silver;
+}
+
+div#Content {
+	/*text-align: left;'*
 	width: 300px;
+	float: right;
 	/*margin: 0 auto;*/
 	padding: 0.5em;
 	border: 2px ridge silver;

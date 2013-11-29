@@ -3,15 +3,19 @@
 ?>
 	<?php include ("../templates/head.php"); ?>
     <?php include "../templates/user_info.php" ?>
+	<div id="Navigation">
 	<a id="item" href="#">Onclick</a>
 	<script type="text/javascript">
-	$(document).ready(function(){
-	$("#item").click(function(){
-	$("#item2").load('http://localhost:8080/test/includes/load_images.php');
-  });
-});
-	</script>
-		  <div id="item2"></div>
+	$(document).ready(function(){	
+		$("#item").click(function(){
+		$("#content").load('http://localhost:8080/test/includes/load_images.php');
+		});	
+	});
+	</script>		  
 	    <p>
-      <a href="../includes/logout.php">Logout</a>
-    </p>
+			<div id="logout">
+				<a href="../includes/logout.php">Logout</a>
+			</div>
+		</p>
+		</div>
+		<div id="content"></div>

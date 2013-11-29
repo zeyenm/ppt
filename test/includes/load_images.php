@@ -1,3 +1,4 @@
+<div id="images">
 <script type="text/javascript">
 $( init );
 function init() {
@@ -25,3 +26,6 @@ containment: 'document',
 
  }
 ?>
+</div>
+<a id="item3" href="#">Close images</a>
+
