@@ -1,0 +1,29 @@
+<NotepadPlus>
+    <Project name="ppt">
+        <File name="index.php" />
+        <File name="login.php" />
+        <File name="register.php" />
+        <Folder name="css">
+            <File name="css\styles.css" />
+        </Folder>
+        <Folder name="templates">
+            <File name="templates\begin_nav.php" />
+            <File name="templates\end_nav.txt" />
+            <File name="templates\register_link.php" />
+            <File name="templates\user_form.php" />
+        </Folder>
+        <Folder name="includes">
+            <File name="includes\check.php" />
+            <File name="includes\connect.php" />
+            <File name="includes\login.php" />
+            <File name="includes\logout.php" />
+            <File name="includes\member.php" />
+            <File name="includes\register.php" />
+            <File name="includes\user_information.php" />
+        </Folder>
+        <Folder name="images">
+            <File name="images\152_-_Paerchenamulett__Logo_-_3.jpg" />
+            <File name="images\Penguins.jpg" />
+        </Folder>
+    </Project>
+</NotepadPlus>

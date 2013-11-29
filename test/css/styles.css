@@ -7,6 +7,21 @@ body {
     background-size: 1000px 1000px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 1000px 1000px;
     background-color: #840b2a;*/
 }
+div#Navigation {
+	text-align: left;
+	margin: 0 auto;
+	width: 760px;
+	padding: 0.5em;
+	border: 2px ridge silver;
+}
+
+div#UserInfo {
+	text-align: left;
+	width: 300px;
+	/*margin: 0 auto;*/
+	padding: 0.5em;
+	border: 2px ridge silver;
+}
 
 .login {
     width: 300px;
